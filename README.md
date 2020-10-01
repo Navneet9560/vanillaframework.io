@@ -7,7 +7,7 @@ This repository is archived. The vanillaframework.io site was moved to [@canonic
 
 This is the repo for the Vanilla Framework brochure site
 
-## Local development
+## Local development or Local Host Development
 
 The simplest way to run the site locally is to first [install Docker](https://docs.docker.com/engine/installation/) (on Linux you may need to [add your user to the `docker` group](https://docs.docker.com/engine/installation/linux/linux-postinstall/)), and then use the `./run` script:
 
@@ -17,7 +17,7 @@ The simplest way to run the site locally is to first [install Docker](https://do
 
 Once the containers are setup, you can visit <http://127.0.0.1:8014> in your browser.
 
-### Building CSS
+### Building CSS and Stylesheets
 
 For working on [Sass files](_sass), you may want to dynamically watch for changes to rebuild the CSS whenever something changes.
 
